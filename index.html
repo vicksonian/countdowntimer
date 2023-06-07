@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+        <div class="container">
+            <div class="header">
+                <h1>CountDown Timer</h1>
+            </div>
+            <div id="timer">
+                <div class="timer-section">
+                    <input type="number" id="days" placeholder="Days" min="0">
+                    <p><span>DAYS</span></p>
+                </div>
+                
+                <div class="timer-section">
+                    <input type="number" id="hours" placeholder="Hours" min="0" max="23">
+                    <p><span>HOURS</span></p>
+                </div>
+
+                <div class="timer-section">
+                    <input type="number" id="minutes" placeholder="Minutes" min="0" max="59">
+                    <p><span>MINUTES</span></p>
+                </div>
+
+                <div class="timer-section">
+                    <input type="number" id="seconds" placeholder="Seconds" min="0" max="59">
+                    <p>SECONDS</p>
+                </div>
+            </div>
+            <button id="start-btn">Start</button>
+        </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
